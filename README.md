@@ -1,6 +1,6 @@
 # PB
-temp - BeautifulSoup Approach
-temp1 - Selenium Approach
+BeautifulSoup Approach
+
 -----
 Building an NBA Position Classifier
 nba_league
