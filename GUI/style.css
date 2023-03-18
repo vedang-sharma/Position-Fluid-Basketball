@@ -1,0 +1,85 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Position the text on top of the image */
+.point_guard {
+  display: none;
+  position: absolute;
+  top: 123px;
+  left: 265px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: black;
+}
+
+.shooting_guard {
+  display: none;
+  position: absolute;
+  top: 230px;
+  left: 32px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: black;
+}
+
+.small_forward {
+  display: none;
+  position: absolute;
+  top: 360px;
+  left: 409px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: black;
+}
+
+.power_forward {
+  display: none;
+  position: absolute;
+  top: 378px;
+  left: 87px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: black;
+}
+
+.center {
+  display: none;
+  position: absolute;
+  top: 256px;
+  left: 344px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: black;
+}
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
